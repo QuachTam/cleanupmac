@@ -1,1 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CleanOS Privacy Policy">
+  <title>CleanOS Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f8fbff;
+      --card: rgba(255, 255, 255, 0.88);
+      --text: #17233d;
+      --muted: #66738f;
+      --line: #d8e2f2;
+      --accent: #367af6;
+      --accent-2: #675be7;
+      --notice: #eef5ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 85% 0%, rgba(54, 122, 246, .16), transparent 32rem),
+        radial-gradient(circle at 0% 80%, rgba(103, 91, 231, .10), transparent 28rem),
+        var(--bg);
+      font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { width: min(860px, calc(100% - 32px)); margin: 56px auto; }
+    article {
+      padding: clamp(28px, 6vw, 64px);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: 0 24px 70px rgba(50, 75, 120, .13);
+      backdrop-filter: blur(20px);
+    }
+    .brand {
+      margin: 0 0 12px;
+      font-size: 18px;
+      font-weight: 750;
+      letter-spacing: .04em;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      background-clip: text;
+      color: transparent;
+    }
+    h1 { margin: 0; font-size: clamp(34px, 7vw, 54px); line-height: 1.1; letter-spacing: -.035em; }
+    h2 { margin: 42px 0 10px; font-size: 23px; letter-spacing: -.015em; }
+    p, li { color: var(--muted); }
+    strong { color: var(--text); }
+    ul { padding-left: 22px; }
+    .meta { margin: 14px 0 28px; }
+    .notice {
+      padding: 18px 20px;
+      border: 1px solid rgba(54, 122, 246, .22);
+      border-radius: 14px;
+      background: var(--notice);
+      color: var(--text);
+    }
+    a { color: var(--accent); }
+    footer { margin-top: 46px; padding-top: 22px; border-top: 1px solid var(--line); color: var(--muted); }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #101525; --card: rgba(25, 33, 54, .9); --text: #f2f6ff;
+        --muted: #aab5cc; --line: #34415b; --notice: #222c43;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <p class="brand">CleanOS</p>
+      <h1>Privacy Policy</h1>
+      <p class="meta"><strong>Effective date:</strong> June 15, 2026</p>
 
+      <p class="notice"><strong>Privacy in one sentence:</strong> CleanOS analyzes files and system information locally on your Mac, and does not upload your file names, file contents, folder paths, scan results, process list, or cleanup history.</p>
+
+      <h2>1. About this policy</h2>
+      <p>This Privacy Policy explains how CleanOS ("CleanOS", "we", "us", or "our") handles information when you use the CleanOS macOS application, whether downloaded from the Mac App Store or distributed directly by us.</p>
+
+      <h2>2. Information processed locally</h2>
+      <p>To provide storage analysis, duplicate detection, cleanup recommendations, application management, and system monitoring, CleanOS may process the following information on your Mac:</p>
+      <ul>
+        <li>File and folder names, paths, sizes, dates, file types, and content hashes used to detect exact duplicates.</li>
+        <li>Application bundle metadata and related local paths used to identify installed applications and possible leftovers.</li>
+        <li>Local system metrics, including CPU usage, memory pressure, storage capacity, uptime, battery status, and running process information.</li>
+        <li>Your selections, scan state, appearance settings, onboarding status, and locally cached entitlement state.</li>
+      </ul>
+      <p>This information is processed on your device. CleanOS does not upload file contents or the local scan information listed above to us.</p>
+
+      <h2>3. File access and permissions</h2>
+      <p>CleanOS accesses files only to provide features you initiate, such as storage scanning, finding large or duplicate files, reviewing cleanup candidates, and uninstalling applications.</p>
+      <p>The Direct edition may ask you to grant Full Disk Access to improve scan coverage for protected locations. The Mac App Store edition may ask you to select folders and grant access through macOS. You can revoke these permissions in macOS System Settings. Without permission, some folders may be skipped or reported as unavailable.</p>
+
+      <h2>4. Cleanup operations</h2>
+      <p>CleanOS presents reviewable paths before cleanup actions. Files selected for cleanup are moved to the macOS Trash rather than intentionally erased permanently. You remain responsible for reviewing selections before confirming an action and for managing items in Trash.</p>
+
+      <h2>5. Purchases and license information</h2>
+      <p><strong>Mac App Store edition:</strong> purchases and subscriptions are processed by Apple through StoreKit and are subject to Apple's privacy policy. CleanOS receives entitlement information needed to determine whether paid features are available. We do not receive your full payment card details.</p>
+      <p><strong>Direct edition:</strong> purchases, subscriptions, and license management may be processed by Lemon Squeezy, a Merchant of Record. Lemon Squeezy may process information such as your name, email address, billing details, country, transaction information, and license status according to its own privacy policy. CleanOS may exchange a license key, device activation identifier, and entitlement status with the licensing service. We do not receive your full payment card details.</p>
+
+      <h2>6. Information we do not sell</h2>
+      <p>We do not sell or rent personal information. We do not use your file contents, file names, folder paths, scan results, process list, or cleanup history for advertising or profiling.</p>
+
+      <h2>7. Data stored on your Mac</h2>
+      <p>CleanOS may store preferences in macOS user defaults and entitlement or trial information in the macOS Keychain. The App Store edition may store security-scoped bookmarks for folders you explicitly authorize. You can remove locally stored application data by uninstalling CleanOS and deleting its associated application data, subject to normal macOS and Keychain behavior.</p>
+
+      <h2>8. Data retention</h2>
+      <p>Local scan results are retained only as needed by the application session or local product functionality. Payment providers retain transaction and account information according to their legal obligations and privacy policies. License records may be retained while your license is active and for a reasonable period afterward for fraud prevention, accounting, support, and legal compliance.</p>
+
+      <h2>9. Security</h2>
+      <p>We use platform security features and reasonable technical safeguards appropriate to the information handled by CleanOS. No method of storage or transmission is completely secure, so we cannot guarantee absolute security.</p>
+
+      <h2>10. Children's privacy</h2>
+      <p>CleanOS is not directed to children under 13, and we do not knowingly collect personal information from children under 13.</p>
+
+      <h2>11. Changes to this policy</h2>
+      <p>We may update this policy when CleanOS features, service providers, or legal requirements change. We will update the effective date on this page. Material changes will be communicated through the application, website, or release notes where appropriate.</p>
+
+      <h2>12. Contact</h2>
+      <p>For privacy questions or requests, contact us at <a href="mailto:support@example.com">support@example.com</a>.</p>
+
+      <footer>CleanOS Privacy Policy · Last updated June 15, 2026</footer>
+    </article>
+  </main>
+</body>
+</html>
